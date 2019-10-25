@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="17A9519332F62DBF6BC50866BBF32FE9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D7195AE1E7FE00D7AA1949E8F920F74E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Digital Pattern Editor" Name="http://www.ni.com/PatternBasedDigital" OldestCompatibleVersion="4.5.0.0" Version="4.6.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
@@ -37,6 +37,7 @@
 			<FileReference Id="45" ModelDefinitionType="PinLevelsDefinition" Name="SET\.digilevels" StoragePath="SET.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
 			<FileReference Id="55" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_1000ns\.digipat" StoragePath="patterns\pulse_1000ns.digipat" />
 			<FileReference Id="56" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_40ns\.digipat" StoragePath="patterns\pulse_40ns.digipat" />
+			<FileReference Id="59" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_10ns\.digipat" StoragePath="patterns\pulse_10ns.digipat" />
 		</NameScopingEnvoy>
 		<EmbeddedDefinitionReference Id="6" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
 			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
