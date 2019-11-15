@@ -28,7 +28,7 @@
       </DigitalPinLevelSet>
       <DigitalPinLevelSet pin="WL_SEL">
         <Vil>0</Vil>
-        <Vih>2.5</Vih>
+        <Vih>3.5</Vih>
         <Vol>0</Vol>
         <Voh>0</Voh>
         <Vterm>0</Vterm>
@@ -36,7 +36,7 @@
       </DigitalPinLevelSet>
       <DigitalPinLevelSet pin="SL_SEL">
         <Vil>0</Vil>
-        <Vih>2.4</Vih>
+        <Vih>2.5</Vih>
         <Vol>0</Vol>
         <Voh>0</Voh>
         <Vterm>0</Vterm>
