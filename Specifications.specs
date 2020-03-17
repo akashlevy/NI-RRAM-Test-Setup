@@ -5,9 +5,4 @@
       <f:Definition>10 ns</f:Definition>
     </f:Formula>
   </Section>
-  <Section name="level">
-    <f:Formula symbol="set1T4R">
-      <f:Definition>2.4</f:Definition>
-    </f:Formula>
-  </Section>
 </Specifications>

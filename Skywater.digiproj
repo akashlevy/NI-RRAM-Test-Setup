@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0DDFC02338DB54E2A6B68AE42EF7E372" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="239ED1613D2AE8FF0FE818EB6C5788BE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Digital Pattern Editor" Name="http://www.ni.com/PatternBasedDigital" OldestCompatibleVersion="4.5.0.0" Version="4.6.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
@@ -27,19 +27,18 @@
 			<FileReference Id="13" ModelDefinitionType="PinMap" Name="Skywater\.pinmap" StoragePath="Skywater.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
 			<FileReference Id="14" ModelDefinitionType="SpecificationsDefinition" Name="Specifications\.specs" StoragePath="Specifications.specs" />
 			<FileReference Id="15" ModelDefinitionType="TimingDefinition" Name="Timing\.digitiming" StoragePath="Timing.digitiming" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
-			<FileReference Id="16" ModelDefinitionType="PinLevelsDefinition" Name="FORM\.digilevels" StoragePath="FORM.digilevels" />
 			<FileReference Id="23" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="load_addr\.digipat" StoragePath="patterns\load_addr.digipat" />
 			<FileReference Id="26" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_800ns\.digipat" StoragePath="patterns\pulse_800ns.digipat" />
 			<FileReference Id="30" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_200ns\.digipat" StoragePath="patterns\pulse_200ns.digipat" />
-			<FileReference Id="31" ModelDefinitionType="PinLevelsDefinition" Name="READ\.digilevels" StoragePath="READ.digilevels" />
+			<FileReference Id="31" ModelDefinitionType="PinLevelsDefinition" Name="Levels\.digilevels" StoragePath="Levels.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
 			<FileReference Id="36" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_100ns\.digipat" StoragePath="patterns\pulse_100ns.digipat" />
-			<FileReference Id="40" ModelDefinitionType="PinLevelsDefinition" Name="RESET\.digilevels" StoragePath="RESET.digilevels" />
-			<FileReference Id="45" ModelDefinitionType="PinLevelsDefinition" Name="SET\.digilevels" StoragePath="SET.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
 			<FileReference Id="55" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_1000ns\.digipat" StoragePath="patterns\pulse_1000ns.digipat" />
 			<FileReference Id="56" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_40ns\.digipat" StoragePath="patterns\pulse_40ns.digipat" />
 			<FileReference Id="59" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_10ns\.digipat" StoragePath="patterns\pulse_10ns.digipat" />
 			<FileReference Id="62" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_400ns\.digipat" StoragePath="patterns\pulse_400ns.digipat" />
 			<FileReference Id="63" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_1600ns\.digipat" StoragePath="patterns\pulse_1600ns.digipat" />
+			<FileReference Id="66" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="wl_on\.digipat" StoragePath="patterns\wl_on.digipat" />
+			<FileReference Id="67" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="wl_off\.digipat" StoragePath="patterns\wl_off.digipat" />
 		</NameScopingEnvoy>
 		<EmbeddedDefinitionReference Id="6" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
 			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
