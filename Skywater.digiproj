@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A01DE2129915B3A0388C32F068B0806C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="871F88D024CEE05D49A7AD5F6E2BAFC2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Digital Pattern Editor" Name="http://www.ni.com/PatternBasedDigital" OldestCompatibleVersion="4.5.0.0" Version="4.6.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.0.61650" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
@@ -41,6 +41,7 @@
 			<FileReference Id="71" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="all_off\.digipat" StoragePath="patterns\all_off.digipat" />
 			<FileReference Id="74" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="pulse_300ns\.digipat" StoragePath="patterns\pulse_300ns.digipat" />
 			<FileReference Id="77" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="endurance\.digipat" StoragePath="patterns\endurance.digipat" />
+			<FileReference Id="85" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="endurance\-reset\-0\.digipat" StoragePath="endurance-patterns\endurance-reset-0.digipat" />
 		</NameScopingEnvoy>
 		<EmbeddedDefinitionReference Id="6" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
 			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
