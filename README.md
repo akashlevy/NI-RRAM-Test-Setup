@@ -3,16 +3,12 @@
 LabVIEW code for testing tsmc40r chip
 
 
-## Forming
-
-
-## SET
-
-
-## RESET
-
-
-## READ
+|         	| WL-range  	| WL-default 	| BL-range 	| BL-default 	| SL-range 	| SL-default 	|
+|---------	|-----------	|------------	|----------	|------------	|----------	|------------	|
+| Forming 	| 0.9~2.4V  	| 1.3V       	| 2.0~4.0V 	| 3.2V       	| 0        	| 0          	|
+| SET     	| 0.9V~2.4V 	| 2.2V       	| 0.9~2.4V 	| 1.9V       	| 0        	| 0          	|
+| RESET   	| 0.9~3.0V  	| 2.6V       	| 0        	| 0          	| 0.9~2.4V 	| 1.5V       	|
+| Read    	| 0.9~1.3V  	| 1.1V       	| 0.1~0.3V 	| 0.2V       	| 0        	| 0          	|
 
 
 ## Program-Verify
