@@ -43,23 +43,23 @@ Done with:
 - Close.vi
 - Decode Disable.vi
 - Decode Enable.vi
+- Dynamic Form.vi
 - Globals.vi
 - Increment 2D Array Element.vi
 - Iterator.vi
 - Measure Current.vi
 - Read.vi
 - Set Address.vi
-- Setup.vi (delete if not used!)
 - Static Pattern.vi
+- WL Pulse.vi
+- WL Source.vi
 
 
 TODO:
 - Draw Checkerboard.vi: adapt for 1T1R only and 1D array outputs
-- Dynamic Form.vi
 - Dynamic RESET.vi
 - Dynamic SET.vi
 - RESET.vi
 - RRAM.vi: cleanup and finish the other VIs
+- Setup.vi: this needs to set WLs to 0, setup global channels in MAX automatically
 - Target Resistance.vi
-- WL Pulse.vi
-- WL Source.vi
