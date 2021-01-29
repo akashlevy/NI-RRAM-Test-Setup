@@ -61,3 +61,5 @@ TODO:
 - RESET.vi
 - RRAM.vi: cleanup and finish the other VIs
 - Target Resistance.vi
+- WL Pulse.vi
+- WL Source.vi
