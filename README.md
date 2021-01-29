@@ -26,14 +26,38 @@ Note that wl_ext_sel and sl_ext_sel need to be decoded programmatically to deter
 
 AI4: sl_shunt_meas
 AO0-AO3: wl_ext_[0:3]
-P0.0-P0.5: wl_addr[0:5]
-P0.6-P0.7: bl_ext_[0:1]
-P1.1-P1.7: sl_addr[0:6]
-P2.0: sl_dec_en
-P2.1: wl_dec_en
-P2.2: sl_ext
+DIO 0-5: wl_addr[0:5]
+DIO 6-12: sl_addr[0:6]
+DIO 13: wl_dec_en
+DIO 14: sl_dec_en
+DIO 15: sl_ext
+PDC 0-1: bl_ext[0:1]
+
+## Done and TODOs
+
+Done with:
+- Address Split.vi
+- BER.vi
+- BL Disable.vi
+- BL Source.vi
+- Close.vi
+- Decode Disable.vi
+- Decode Enable.vi
+- Globals.vi
+- Increment 2D Array Element.vi
+- Iterator.vi
+- Measure Current.vi
+- Read.vi
+- Set Address.vi
+- Setup.vi (delete if not used!)
+- Static Pattern.vi
 
 
-
-
-
+TODO:
+- Draw Checkerboard.vi: adapt for 1T1R only and 1D array outputs
+- Dynamic Form.vi
+- Dynamic RESET.vi
+- Dynamic SET.vi
+- RESET.vi
+- RRAM.vi: cleanup and finish the other VIs
+- Target Resistance.vi
