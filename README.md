@@ -51,8 +51,7 @@ Done with:
 - Read.vi
 - Set Address.vi
 - Static Pattern.vi
-- WL Pulse.vi
-- WL Source.vi
+- WL Source.vi (test other WLs as well!)
 
 
 TODO:
@@ -63,3 +62,4 @@ TODO:
 - RRAM.vi: cleanup and finish the other VIs
 - Setup.vi: this needs to set WLs to 0, setup global channels in MAX automatically
 - Target Resistance.vi
+- WL Pulse.vi (need to fix, test other WLs as well!)
