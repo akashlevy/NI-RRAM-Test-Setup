@@ -3,6 +3,8 @@
 LabVIEW code for testing tsmc40r chip
 
 
+## TSMC-recommended values
+
 |         	| WL-range  	| WL-default 	| BL-range 	| BL-default 	| SL-range 	| SL-default 	|
 |---------	|-----------	|------------	|----------	|------------	|----------	|------------	|
 | Forming 	| 0.9~2.4V  	| 1.3V       	| 2.0~4.0V 	| 3.2V       	| 0        	| 0          	|
@@ -21,45 +23,3 @@ LabVIEW code for testing tsmc40r chip
 ```
 
 Note that wl_ext_sel and sl_ext_sel need to be decoded programmatically to determine which wl_ext_[0:3] or bl_ext[0:1] should be high.
-
-## Pinmap
-
-AI4: sl_shunt_meas
-AO0-AO3: wl_ext_[0:3]
-DIO 0-5: wl_addr[0:5]
-DIO 6-12: sl_addr[0:6]
-DIO 13: wl_dec_en
-DIO 14: sl_dec_en
-DIO 15: sl_ext
-PDC 0-1: bl_ext[0:1]
-
-## Done and TODOs
-
-Done with:
-- Address Split.vi
-- BER.vi
-- BL Disable.vi
-- BL Source.vi
-- Close.vi
-- Decode Disable.vi
-- Decode Enable.vi
-- Dynamic Form.vi
-- Globals.vi
-- Increment 2D Array Element.vi
-- Iterator.vi
-- Measure Current.vi
-- Read.vi
-- Set Address.vi
-- Static Pattern.vi
-- WL Source.vi (test other WLs as well!)
-
-
-TODO:
-- Draw Checkerboard.vi: adapt for 1T1R only and 1D array outputs
-- Dynamic RESET.vi
-- Dynamic SET.vi
-- RESET.vi
-- RRAM.vi: cleanup and finish the other VIs
-- Setup.vi: this needs to set WLs to 0, setup global channels in MAX automatically
-- Target Resistance.vi
-- WL Pulse.vi (need to fix, test other WLs as well!)
