@@ -24,9 +24,10 @@ data.loc[(data['success'] == 0), 'R'] = 20000
 # Show number of successes
 print(data['success'].value_counts())
 
+# Save failures
 np.savetxt('form-fails.csv', data.index[data['success'] == 0].values, fmt='%d')
 
-# Create matrix
+# Create matrices
 success_mat = data['success'].values.reshape(256, 256)
 vwl_mat = data['VWL'].values.reshape(256, 256)
 r_mat = data['R'].values.reshape(256, 256)
