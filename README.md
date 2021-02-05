@@ -28,4 +28,5 @@ Note that wl_ext_sel and sl_ext_sel need to be decoded programmatically to deter
 
 Chip 1: Breakout Board Chip, status: unsure if working
 Chip 2: Prototyping Chip, status: some cells over-SET, working otherwise, nothing formed past 2512 as far as known
-Chip 3: FORMed, status: some cells failed to FORM, working otherwise
+Chip 3: FORMed, programmed with first set of inputs
+Chip 8: FORMed, programmed with a simple 010101... vector
