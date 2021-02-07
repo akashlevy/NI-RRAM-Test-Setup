@@ -10,13 +10,13 @@ dtypes = {
     'R': np.float64,
     'success': np.int32
 }
-data = pd.read_csv('../data/form_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
+data = pd.read_csv('../data/form_chip7.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
 
 # Replace failed data
-data_failed = pd.read_csv('../data/form_failed_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
-data_failed2 = pd.read_csv('../data/form_failed2_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
-data.update(data_failed)
-data.update(data_failed2)
+#data_failed = pd.read_csv('../data/form_failed_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
+#data_failed2 = pd.read_csv('../data/form_failed2_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
+#data.update(data_failed)
+#data.update(data_failed2)
 
 # Hack to prevent unFORMed cells from messing up resistance distribution
 data.loc[(data['success'] == 0), 'R'] = 20000

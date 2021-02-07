@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt, numpy as np, pandas as pd
 LRS = 10000
 HRS = 80000
 ITER = 4
-CHIP = 8
+CHIP = 5
 
 # Load bitstream as matrix
 bs = np.loadtxt(open("../tests/testbs.csv", encoding='utf-8-sig'), delimiter=",", dtype=np.int32)
