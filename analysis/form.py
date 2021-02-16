@@ -1,6 +1,9 @@
 # Import libraries
 import matplotlib.pyplot as plt, numpy as np, pandas as pd
 
+# Chip number
+CHIP = 9
+
 # Load FORMing data
 cols = ['addr', 'VWL', 'VBL', 'R', 'success']
 dtypes = {
@@ -10,7 +13,7 @@ dtypes = {
     'R': np.float64,
     'success': np.int32
 }
-data = pd.read_csv('../data/form_chip7.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
+data = pd.read_csv(f'../data/form_chip{CHIP}.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
 
 # Replace failed data
 #data_failed = pd.read_csv('../data/form_failed_chip3.csv', names=cols, sep='\t', dtype=dtypes, index_col='addr')
