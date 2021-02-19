@@ -18,7 +18,7 @@ plt.colorbar(mat)
 plt.title('Target Resistance (ohm)')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('prog-gold.pdf')
+plt.savefig('figs/prog-gold.pdf')
 
 
 
@@ -49,7 +49,7 @@ plt.colorbar(mat)
 plt.title('Full Array Programming Pulse Count')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('prog-pulses.pdf')
+plt.savefig('figs/prog-pulses.pdf')
 
 # Programmed resistance
 mat = plt.matshow(r_mat, vmin=0, vmax=150000)
@@ -57,7 +57,7 @@ plt.colorbar(mat)
 plt.title('Programmed Resistance (ohm)')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('prog-res.pdf')
+plt.savefig('figs/prog-res.pdf')
 
 # CDF curves
 plt.figure(figsize=(4,3))
@@ -72,7 +72,7 @@ for i in range(2):
 plt.xlabel('Resistance (kOhm)')
 plt.ylabel('CDF (%)')
 plt.tight_layout()
-plt.savefig('prog-cdf.pdf')
+plt.savefig('figs/prog-cdf.pdf')
 
 # CDF curves
 plt.figure(figsize=(4,3))
@@ -86,7 +86,7 @@ for i in range(2):
 plt.xlabel('Conductance (uS)')
 plt.ylabel('CDF (%)')
 plt.tight_layout()
-plt.savefig('prog-g-cdf.pdf')
+plt.savefig('figs/prog-g-cdf.pdf')
 
 
 
@@ -110,7 +110,7 @@ plt.colorbar(mat)
 plt.title('Post-Prog. READ Resistance (ohm)')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('progread-res.pdf')
+plt.savefig('figs/progread-res.pdf')
 
 # CDF curves
 plt.figure(figsize=(4,3))
@@ -125,7 +125,7 @@ for i in range(2):
 plt.xlabel('Resistance (kOhm)')
 plt.ylabel('CDF (%)')
 plt.tight_layout()
-plt.savefig('progread-cdf.pdf')
+plt.savefig('figs/progread-cdf.pdf')
 
 plt.figure(figsize=(4,3))
 plt.xlim(0, 150)
@@ -138,7 +138,7 @@ for i in range(2):
 plt.xlabel('Conductance (uS)')
 plt.ylabel('CDF (%)')
 plt.tight_layout()
-plt.savefig('progread-g-cdf.pdf')
+plt.savefig('figs/progread-g-cdf.pdf')
 
 
 

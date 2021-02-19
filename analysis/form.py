@@ -28,7 +28,7 @@ data.loc[(data['success'] == 0), 'R'] = 20000
 print(data['success'].value_counts())
 
 # Save failures
-np.savetxt('form-fails.csv', data.index[data['success'] == 0].values, fmt='%d')
+np.savetxt('output/form-fails.csv', data.index[data['success'] == 0].values, fmt='%d')
 
 # Create matrices
 success_mat = data['success'].values.reshape(256, 256)
@@ -40,14 +40,14 @@ data['VWL'].hist(bins=np.arange(0.875, 1.525, 0.05))
 plt.title('VWL Distribution')
 plt.xlabel('VWL (V)')
 plt.ylabel('Frequency')
-plt.savefig('form-vwl-dist.pdf')
+plt.savefig('figs/form-vwl-dist.pdf')
 
 # FORMed Resistance Distribution
 data['R'].hist(bins=15)
 plt.title('FORMed Resistance Distribution')
 plt.xlabel('Resistance (ohm)')
 plt.ylabel('Frequency')
-plt.savefig('form-res-dist.pdf')
+plt.savefig('figs/form-res-dist.pdf')
 
 # FORMing success/yield
 mat = plt.matshow(success_mat)
@@ -55,7 +55,7 @@ plt.colorbar(mat)
 plt.title('Full Array FORM Sucesss')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('form-success.pdf')
+plt.savefig('figs/form-success.pdf')
 
 # FORMing VWL
 mat = plt.matshow(vwl_mat)
@@ -63,7 +63,7 @@ plt.colorbar(mat)
 plt.title('Full Array FORM VWL (V)')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('form-vwl.pdf')
+plt.savefig('figs/form-vwl.pdf')
 
 # FORMed resistance
 mat = plt.matshow(r_mat)
@@ -71,4 +71,4 @@ plt.colorbar(mat)
 plt.title('Full Array FORM Resistance (ohm)')
 plt.xlabel('BL/SL #')
 plt.ylabel('WL #')
-plt.savefig('form-res.pdf')
+plt.savefig('figs/form-res.pdf')

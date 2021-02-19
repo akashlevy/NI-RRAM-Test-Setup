@@ -21,7 +21,7 @@ plt.yticks(np.arange(0, 257, 64))
 cbar = fig.colorbar(mat, ticks=[0, 1])
 cbar.ax.set_yticklabels(['LRS', 'HRS'])
 plt.tight_layout()
-plt.savefig('camera-prog-gold.pdf')
+plt.savefig('figs/camera-prog-gold.pdf')
 
 # Load target output as dataframe
 cols = ['addr', 'READS', 'SETS', 'RESETS', 'success', 'R']
@@ -63,7 +63,7 @@ plt.ylabel('WL #')
 plt.xticks(np.arange(0, 257, 64))
 plt.yticks(np.arange(0, 257, 64))
 plt.tight_layout()
-plt.savefig('camera-read-res.pdf')
+plt.savefig('figs/camera-read-res.pdf')
 
 # CDF curves
 plt.figure(figsize=(3.2,2.4))
@@ -83,4 +83,4 @@ for i in range(2):
 plt.xlabel('Resistance (kΩ)')
 plt.ylabel('CDF (%)')
 plt.tight_layout()
-plt.savefig('camera-res-cdf.pdf')
+plt.savefig('figs/camera-res-cdf.pdf')
