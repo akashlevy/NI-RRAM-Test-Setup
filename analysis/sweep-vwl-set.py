@@ -28,7 +28,7 @@ for PW in [50, 10, 5, 1]:
     # Select pulse width
     gdata0 = data[data['PW'] == PW]
     for VBL in [2.5, 2, 1.5, 1]:
-        # Select bitline voltage and group by address for individual lines
+        # Select BL voltage and group by address for individual lines
         gdata = gdata0[gdata0['VBL'] == VBL]
         gdata = gdata.groupby('addr')
 
