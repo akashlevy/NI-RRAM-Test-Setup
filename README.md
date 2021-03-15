@@ -24,7 +24,7 @@ LabVIEW code for testing tsmc40r chip
 
 Note that wl_ext_sel and sl_ext_sel need to be decoded programmatically to determine which wl_ext_[0:3] or bl_ext[0:1] should be high.
 
-## Chips
+## Chips: STATUS WILL ONLY BE UPDATED ON NI-RRAM-Python REPO STARTING 3/14/21!!!
 
 Chip 1: Breakout Board Chip, status: unsure if working, looks like the wire bonds are shorted...
 Chip 2: Prototyping Chip, status: some cells over-SET, working otherwise, nothing formed past 2512 as far as known
